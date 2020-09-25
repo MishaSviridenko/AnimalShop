@@ -1,0 +1,28 @@
+
+User CRUD
+                        create  	read 	update  	delete
+        admin
+        seller
+        user (buyer)
+
+
+Product CRUD
+                        create  	read 	update  	delete
+        admin
+        seller
+        user (buyer)
+
+
+BusketProducts CRUD
+                        create  	read 	update  	delete
+        admin
+        seller
+        user (buyer)
+
+
+Category CRUD
+                        create  	read 	update  	delete
+        admin
+        seller
+        user (buyer)
+
