@@ -6,12 +6,14 @@ public class Product {
 
     private long productId;
     private String productName;
-    private String productDescription; //Тоже можно сделать отдельным классом
+//    @Embaded
+    private ProductDescription productDescription; //Тоже можно сделать отдельным классом
                                     // и определить поля с описанием товара
-    private long price; //Может сделаем отдельный класс Price???
-    private int productsNumber;
+    private long price;
+    private int discountPrice; // цена со скидкой
+    private int productsCount;
     private Set<Category> categories;
 
-    private Basket basket; //В моем понимании, товар ничего не может знать о корзине!
+    private Basket basket; //OneToOne oneDirection
 
 }

@@ -1,9 +1,9 @@
 
 User CRUD
                         create  	read 	update  	delete
-        admin
+        admin               +       +           +           +
         seller
-        user (buyer)
+        user (buyer)                 -
 
 
 Product CRUD
